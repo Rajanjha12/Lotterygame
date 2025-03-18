@@ -1,0 +1,30 @@
+.ticket{
+    border: 3px solid pink;
+    border-radius: 14px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    width:250px;
+    margin:0 auto;
+    font-size: 2em;
+    font-weight: bolder;
+    color:red
+
+}    
+.lottery-container {
+    display: flex;
+    align-items: center; /* Align vertically */
+    gap: 20px; /* Space between animation and text */
+    justify-content: center; /* Center align */
+}
+
+.lottery-animation {
+    width: 100px; /* Adjust size as needed */
+}
+
+.lottery-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
